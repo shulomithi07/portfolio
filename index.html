@@ -11,11 +11,11 @@
 
     
     <nav>
-        <div>HOME</div>
-        <div>GAMES</div>
-        <div>SKILLS</div>
-        <div>PROJECTS</div>
-        <div>CONTACT</div>
+        <div><a href="#home">HOME</a></div>
+        <div><a href="#games">GAMES</a></div>
+        <div><a href="#skills">SKILLS</a></div>
+        <div><a href="#projects">PROJECTS</a></div>
+        <div><a href="#contact">CONTACT</a></div>
     </nav>
 
     
@@ -24,50 +24,118 @@
 
         <div class="landingPage">
             <button class="centerButton" id="landing-button">
-
+                LET'S GOOO!!!
             </button>
         </div>
 
 
-        <div class="intropage">
+        <div class="intropage" id="home">
 
             <div class="intro" id="intro-Id">
 
+                <div class="introText" id="intro-Text">
+                    <h1>HELLO THERE!<br>WELCOME :)</h1>
+                </div>
+
+                <div class="blueShape" id="blue-shape">
+                    <img src="images/blue-shape.png" alt="blue-shape">
+                </div>
+
+                <div class="wierdCloud" id="wierdCloud">
+                    <img src="images/wierd-Cloud.png" alt="">
+                </div>
             </div>
             
         </div>
 
-        <div class="skills">
+        <div class="skills" id="skills">
 
             <div class="technical" id="technical-Skills">
+
+                <div class="techImage" id="tech-Image">
+                    <img src="images/skills/boy-coding.png" alt="boy-coding">
+                </div>
+
+                <div class="techSkills" id="techSkills">
+                    <div class="skillsGrid" id="skills-Grid">
+                        <div class="gridItems-tech item-tech2" id="tech1"><h3>HTML</h3></div>
+                        <div class="gridItems-tech item-tech3" id="tech2"><h3>PYTHON</h3></div>
+                        <div class="gridItems-tech item-tech4" id="tech3"><h3>CSS</h3></div>
+                        <div class="gridItems-tech item-tech1" id="tech4"><h3>PHP</h3></div>
+                        <div class="gridItems-tech item-tech5" id="tech5"><h3>JAVASCRIPT</h3></div>
+                        <div class="gridItems-tech item-tech6" id="tech6"><h3>SQL</h3></div>
+                        <div class="gridItems-tech item-tech7" id="tech7"><h3>LEARNING JAVA</h3></div>
+                    </div>
+                </div>
 
             </div>
 
             <div class="design" id="design-Skills">
 
+                <div class="designImage" id="design-Image">
+                    <img src="images/skills/girl-Sketching.png" alt="girl-sketching">
+                </div>
+
+                <div class="designSkills" id="Design-Skills">
+                    <div class="gridItems-design item-design1" id="design1"><h3>FIGMA</h3></div>
+                    <div class="gridItems-design item-design2" id="design2"><h3>PICSART</h3></div>
+                    <div class="gridItems-design item-design3" id="design3"><h3>CANVA</h3></div>
+                    <div class="gridItems-design item-design4" id="design4"><h3>ADOBE DRAW</h3></div>
+                </div>
             </div>
 
         </div>
 
-        <div class="projects">
+        <div class="projects" id="projects">
 
             <div class="techinalProjects" id="technical-Projects">
+
+                <div class="displayGrid technoGrid"><img src="images/projects/techProjects/random-email.png" alt="random-email"></div>
+                <div class="displayGrid technoGrid"><img src="images/projects/techProjects/video.png" alt="video-encoding"></div>
+                <div class="displayGrid technoGrid"><img src="images/projects/techProjects/typing-game.png" alt="typing-game"></div>
+                <div class="displayGrid technoGrid"><img src="images/projects/techProjects/JavaScript-Ball-Game.jpg" alt="ball-shooting-game"></div>
 
             </div>
 
             <div class="designProjects" id="design-Projects">
 
+                <div class="displayGrid designGrid"><img src="images/projects/designProjects/Inscape.jpg" alt="Inscape-Logo"></div>
+                <div class="displayGrid designGrid"><img src="images/projects/designProjects/YAari-color.jpg" alt="Yaari-band-Logo"></div>
+                <div class="displayGrid designGrid"><img src="images/projects/designProjects/Pianorio.jpg" alt="PianoRio-Website-Logo"></div>
+                <div class="displayGrid designGrid"><img src="images/projects/designProjects/Girl-illustration.jpg" alt="Girl-Illustration"></div>
             </div>
 
         </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
 
             <div class="contactInformation" id="contact-Information">
 
+                <div class="dot randomShape" id="backside">
+                    <div class="dot square" id="frontSide">
+                        <div class="details" id="allContacts">
+                            <div class="boxes" id="namee"><h3>SHULOMITHI</h3></div><br>
+                            <div class="boxes email"><h3>shulomithi07@gmail.com</h3></div><br>
+                            <div class="boxes address"><h3>HYDERABAD</h3></div><br>
+                            <div class="boxes socialLinks">
+                            <a href="https://github.com/shulomithi07" target="_blank"><strong>GIT</strong></a>
+                            <a href="https://twitter.com/shulomithi08" target="_blank"><strong>TWITTER</strong></a>
+                            <a href="https://www.linkedin.com/in/shulomithi-t-s-a304531b7/" target="_blank"><strong>LINKEDIN</strong></a>
+                            <a href="https://leetcode.com/shulomithi07/" target="_blank"><strong>LEETCODE</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="contactForm" id="contact-form">
+                <form  method="post">
 
+                    <div class="text"><input type="text" name="name" id="name" placeholder="name" required></div><br>
+                    <div class="text"><input type="text" name="subject" id="subject" placeholder="subject" required></div><br>
+                    <div><textarea name="message" id="" cols="30" rows="10" placeholder="Your feedback" maxlenght="300" required></textarea></div><br><br>
+                    <div class="btn"><input type="submit" name="submit" value="send"></div>
+                </form>
             </div>
         </div>
 
